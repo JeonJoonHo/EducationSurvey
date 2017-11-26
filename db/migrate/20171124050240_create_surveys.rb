@@ -1,0 +1,80 @@
+class CreateSurveys < ActiveRecord::Migration[5.1]
+  def change
+    create_table :surveys do |t|
+      t.integer :e_q1_1
+      t.integer :e_q1_2
+      t.integer :e_q2_1
+      t.integer :e_q2_2
+      t.integer :e_q3_1
+      t.integer :e_q3_2
+      t.integer :e_q4_1
+      t.integer :e_q4_2
+      t.integer :e_q5_1
+      t.integer :e_q5_2
+      t.integer :e_q6_1
+      t.integer :e_q6_2
+      t.integer :e_q7_1
+      t.integer :e_q7_2
+      t.integer :e_q8_1
+      t.integer :e_q8_2
+      t.integer :e_q9_1
+      t.integer :e_q9_2
+      t.integer :e_q10_1
+      t.integer :e_q10_2
+      t.integer :e_q11_1
+      t.integer :e_q11_2
+      t.integer :e_q12_1
+      t.integer :e_q12_2
+      t.integer :e_q13_1
+      t.integer :e_q13_2
+      t.integer :e_q14_1
+      t.integer :e_q14_2
+      t.integer :e_q15_1
+      t.integer :e_q15_2
+      t.integer :e_q16_1
+      t.integer :e_q16_2
+      t.integer :e_q17_1
+      t.integer :e_q17_2
+      t.integer :e_q18_1
+      t.integer :e_q18_2
+      t.integer :e_q19_1
+      t.integer :e_q19_2
+      t.integer :e_q20_1
+      t.integer :e_q20_2
+      t.integer :e_q21_1
+      t.integer :e_q21_2
+      t.integer :e_q22_1
+      t.integer :e_q22_2
+      t.integer :e_q23_1
+      t.integer :e_q23_2
+      t.integer :e_q24_1
+      t.integer :e_q24_2
+      t.integer :p_q1
+      t.integer :p_q2
+      t.integer :p_q3
+      t.integer :p_q4
+      t.integer :p_q5
+      t.integer :p_q6
+      t.integer :p_q7
+      t.integer :p_q8
+      t.integer :p_q9
+      t.integer :p_q10
+      t.integer :b_q1
+      t.integer :b_q2
+      t.integer :b_q3
+      t.integer :b_q4
+      t.integer :b_q5
+      t.integer :b_q6
+      t.integer :b_q7
+      t.integer :b_q8
+      t.integer :b_q9
+      t.integer :b_q10
+      t.integer :b_q11
+      t.integer :b_q12
+      t.string :b_q12_1
+      t.string :b_q12_2
+
+      t.timestamps
+    end
+  end
+end
