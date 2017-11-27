@@ -10,6 +10,16 @@ class SurveyController < ApplicationController
     end
   end
 
+  def finish
+    @numbers = PhoneNumber.all
+
+    respond_to do |format|
+      format.html
+      format.csv { send_data @numbers.to_csv }
+      format.xls { send_data @numbers.to_csv(col_sep: "\t") }
+    end
+  end
+
   def survey_create
     bq12_1 = params[:bq12_1]
     bq12_2 = params[:bq12_2]

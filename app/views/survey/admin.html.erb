@@ -1,5 +1,11 @@
 <p>
-  Download:
+  Survey Download:
   <%= link_to "CSV", survey_index_path(format: "csv") %> |
   <%= link_to "Excel", survey_index_path(format: "xls") %>
+</p>
+
+<p>
+  Phone Number Download:
+  <%= link_to "CSV", survey_finish_path(format: "csv") %> |
+  <%= link_to "Excel", survey_finish_path(format: "xls") %>
 </p>
