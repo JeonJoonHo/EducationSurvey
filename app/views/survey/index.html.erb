@@ -12,6 +12,15 @@
   </div>
 </header>
 
+<div class="container">
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" id="pBar" role="progressbar"
+         aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:0%;height: 80px">
+      0%
+    </div>
+  </div>
+</div>
+
 <!-- Main Content -->
 <div class="container">
   <div class="row">
@@ -28,8 +37,8 @@
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
               <div class="panel-body">
-                <h4 style="color: red;">다음은 「장애학생의 진로 및 전환교육」 이러닝 프로그램 컨텐츠 요구 조사 문항들입니다. 각 문항은 중요하다고 생각하는 정도와 현재 수행하고 있는 정도로 나누어 묻고 있습니다.
-                  선생님의 생각을 가장 잘 나타낸다고 생각하는 숫자에 표시하여 주십시오. </h4>
+                <h4 style="color: red;">다음은 「장애학생의 진로 및 전환교육」 이러닝 프로그램 컨텐츠 요구 조사 문항들입니다. 각 문항은 <strong>직무 중요성 정도</strong>와 <strong>현재 수행능력 정도</strong>로 나누어 묻고 있습니다.
+                  선생님의 생각을 가장 잘 나타낸다고 생각하는 부분에 클릭하여 주십시오. </h4>
                 <div class="survey-question">
                   <div class="question">
                     1. 우리나라 전환교육 관련 법령과 정책을 안다.
@@ -37,11 +46,19 @@
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -108,11 +125,19 @@
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -174,16 +199,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    3. 전환목표(학령기 이후의 목표)는 학생의 강점, 흥미, 선호를 고려한다.
+                    3. 전환목표 <small><small>(학령기 이후의 목표)</small></small>는 학생의 강점, 흥미, 선호를 고려한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -245,16 +278,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    4. 전환목표는 고등교육(대학진학 등), 취업(지원고용, 보호고용 등), 그리고 자립생활 영역에 걸쳐서 작성한다.
+                    4. 전환목표는 고등교육 <small><small>(대학진학 등)</small></small>, 취업 <small><small>(지원고용, 보호고용 등)</small></small>, 그리고 자립생활 영역에 걸쳐서 작성한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -321,11 +362,19 @@
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -387,16 +436,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    6. 학생 중심 접근법을 활용하여 전환계획을 세운다(예: 개인중심계획, 학생 주도의 개별화교육계획 회의 등).
+                    6. 학생 중심 접근법을 활용하여 전환계획을 세운다<small>(예: 개인중심계획, 학생 주도의 개별화교육계획 회의 등)</small>.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -458,16 +515,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    7. 다양한 형식적, 비형식적 전환 평가도구를 사용한다(예: 그림직업흥미검사, 진로성숙도검사, 직업기능스크리닝검사, 면담 등)
+                    7. 다양한 형식적, 비형식적 전환 평가도구를 사용한다<small>(예: 그림직업흥미검사, 진로성숙도검사, 직업기능스크리닝검사, 면담 등)</small>.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -534,11 +599,19 @@
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -605,11 +678,19 @@
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -676,11 +757,19 @@
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -742,16 +831,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    11. 학생에게 고등학교 졸업 이후의 생활을 탐색할 수 있는 기회를 제공한다(예: 대학진학, 취업, 여가생활, 지역사회참여 등).
+                    11. 학생에게 고등학교 졸업 이후의 생활을 탐색할 수 있는 기회를 제공한다<small>(예: 대학진학, 취업, 여가생활, 지역사회참여 등)</small>.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -818,11 +915,19 @@
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -882,18 +987,40 @@
                     </tr>
                   </table>
                 </div>
+                <label class="btn btn-default btn-part1" disabled="true"> Next(모든 문항을 체크해야 넘어갈 수 있습니다!) </label>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title mid">
+                <a class="collapsed " data-toggle="collapse" data-parent="#accordion" href="" aria-expanded="false" aria-controls="collapseTwo">
+                  PART 2
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
                 <div class="survey-question">
                   <div class="question">
-                    13. 직업평가, 직업교육, 고용지원, 사후관리 등의 직업재활훈련 프로그램을 운영한다.
+                    1. 직업평가, 직업교육, 고용지원, 사후관리 등의 직업재활훈련 프로그램을 운영한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -955,16 +1082,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    14. 일상생활적응훈련, 사회적응훈련 등의 자립생활훈련 프로그램을 운영한다.
+                    2. 일상생활적응훈련, 사회적응훈련 등의 자립생활훈련 프로그램을 운영한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1026,16 +1161,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    15. 자기결정 및 자기옹호 프로그램을 운영한다.
+                    3. 자기결정 및 자기옹호 프로그램을 운영한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1097,16 +1240,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    16. 사회성 증진 프로그램을 운영한다.
+                    4. 사회성 증진 프로그램을 운영한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1168,16 +1319,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    17. 전환교육에 관련된 증거기반의 교육과정 및 교수전략을 사용한다.
+                    5. 전환교육에 관련된 증거기반의 교육과정 및 교수전략을 사용한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1239,16 +1398,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    18. 학생의 수준과 능력을 바탕으로 하여, 교육과정·교수활동·교수전략·자료를 조정하고 수정한다.
+                    6. 학생의 수준과 능력을 바탕으로 하여, 교육과정·교수활동·교수전략·자료를 조정하고 수정한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1310,16 +1477,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    19. 학교-기업 간 협력 관계를 형성하여, 학생의 진로탐색 및 진로개발을 지원한다.
+                    7. 학교-기업 간 협력 관계를 형성하여, 학생의 진로탐색 및 진로개발을 지원한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1381,16 +1556,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    20. 학생의 전환성과(진학, 취업, 지역사회참여)와 관련된 기관을 확인하고 연계한다.
+                    8. 학생의 전환성과<small>(진학, 취업, 지역사회참여)</small>와 관련된 기관을 확인하고 연계한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1452,16 +1635,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    21. 학생과 가족에게 전환서비스(고등학교 이후 진학, 진로, 지역사회참여 등)에 대한 정확한 정보를 제공한다.
+                    9. 학생과 가족에게 전환서비스<small>(고등학교 이후 진학, 진로, 지역사회참여 등)</small>에 대한 정확한 정보를 제공한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1523,16 +1714,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    22. 지역사회 서비스 기관과 협력 관계를 형성하여, 학생의 전환에 관련된 정보를 서로 공유한다
+                    10. 지역사회 서비스 기관과 협력 관계를 형성하여, 학생의 전환에 관련된 정보를 서로 공유한다
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1594,16 +1793,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    23. 전환계획 회의(개별화교육계획 회의)에 학생, 가족, 혹은 관련 전문가를 포함한다.
+                    11. 전환계획 회의<small>(개별화교육계획 회의)</small>에 학생, 가족, 혹은 관련 전문가를 포함한다.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1665,16 +1872,24 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    24. 가족(혹은 학생과 관련된 사람)이 학생의 전환계획 회의에 참여할 수 있도록 지원한다(예: 저녁시간 회의, 학교 밖 회의 등).
+                    12. 가족<small>(혹은 학생과 관련된 사람)</small>이 학생의 전환계획 회의에 참여할 수 있도록 지원한다<small>(예: 저녁시간 회의, 학교 밖 회의 등)</small>.
                   </div>
                   <table class="survey-table">
                     <tr>
                       <th style="width: 30%;"></th>
-                      <th class="table-th-width"> 낮음  <-</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">---</th>
-                      <th class="table-th-width">->  높음</th>
+                      <th class="table-th-width"> 낮음 </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width">   </th>
+                      <th class="table-th-width"> 높음 </th>
+                    </tr>
+                    <tr>
+                      <th style="width: 30%;"></th>
+                      <th class="table-th-width"> ◀ </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> — </th>
+                      <th class="table-th-width"> ▶ </th>
                     </tr>
                     <tr class="table-radio">
                       <td>직무의 중요성 정도</td>
@@ -1734,37 +1949,39 @@
                     </tr>
                   </table>
                 </div>
-                <label class="btn btn-link btn-deployment" >다음으로 넘어가기(이전으로 돌아갈 수 없습니다.)</label>
+                <label class="btn btn-default btn-part2" disabled="true"> Next(모든 문항을 체크해야 넘어갈 수 있습니다!) </label>
               </div>
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingTwo">
+            <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title mid">
-                <a class="collapsed " data-toggle="collapse" data-parent="#accordion" href="" aria-expanded="false" aria-controls="collapseTwo">
-                  PART 2
+                <a class="collapsed " data-toggle="collapse" data-parent="#accordion" href="" aria-expanded="false" aria-controls="collapseThree">
+                  PART 3
                 </a>
               </h4>
             </div>
-            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
-                <h4 style="color: red;">다음은 「장애학생의 진로 및 전환교육」 이러닝 시스템 구축에 관한 요구 조사 문항들입니다. 선생님의 생각을 가장 잘 나타낸다고 생각하는 숫자에 표시하여 주십시오.</h4>
+                <h4 style="color: red;">다음은 「장애학생의 진로 및 전환교육」 이러닝 시스템 구축에 관한 요구 조사 문항들입니다. 선생님의 생각을 가장 잘 나타낸다고 생각하는 부분에 클릭하여 주십시오.</h4>
                 <div class="survey-question">
                   <div class="question">
-                    이러닝 프로그램의 1일 수강 시간은 어느 정도가 적당하다고 생각하십니까?
+                    1. 이러닝 프로그램의 1일 수강 시간은 어느 정도가 적당하다고 생각하십니까?
                   </div>
                   <div class="answer">
                     <label class="radio">
                       <input type="radio" name="pq1" id="pq1" value="1"> 30분 이하
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq1" id="pq1" value="2"> 30분-1시간
+                      <input type="radio" name="pq1" id="pq1" value="2"> 30분 ~ 1시간
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq1" id="pq1" value="3"> 1시간-1시간 30분 
+                      <input type="radio" name="pq1" id="pq1" value="3"> 1시간 ~ 1시간 30분 
                     </label>
+                  </div>
+                  <div class="answer">
                     <label class="radio">
-                      <input type="radio" name="pq1" id="pq1" value="4"> 1시간 30분-2시간
+                      <input type="radio" name="pq1" id="pq1" value="4"> 1시간 30분 ~ 2시간
                     </label>
                     <label class="radio">
                       <input type="radio" name="pq1" id="pq1" value="5"> 2시간 이상
@@ -1782,16 +1999,17 @@
                     <label class="radio">
                       <input type="radio" name="pq2" id="pq2" value="2"> 학기 중 평일 오후 시간
                     </label>
-                    <label class="radio">
-                      <input type="radio" name="pq2" id="pq2" value="3"> 학기 중 주말 
+                    <label class="radio webkit-label">
+                      <input class="etc" type="radio" name="pq2" id="pq2" value="5"> 기타
+                      <input type="text" class="form-control question-text" name="pq2_etc" id="pq2_etc">
                     </label>
                   </div>
                   <div class="answer">
                     <label class="radio">
-                      <input type="radio" name="pq2" id="pq2" value="4"> 출퇴근 시간
+                      <input type="radio" name="pq2" id="pq2" value="3"> 학기 중 주말 
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq2" id="pq2" value="5"> 기타
+                      <input type="radio" name="pq2" id="pq2" value="4"> 출퇴근 시간
                     </label>
                   </div>
                 </div>
@@ -1806,14 +2024,17 @@
                     <label class="radio">
                       <input type="radio" name="pq3" id="pq3" value="2"> 퇴근 후 학교
                     </label>
+                    <label class="radio webkit-label">
+                      <input class="etc" type="radio" name="pq3" id="pq3" value="5"> 기타
+                      <input type="text" class="form-control question-text" name="pq3_etc" id="pq3_etc">
+                    </label>
+                  </div>
+                  <div class="answer">
                     <label class="radio">
                       <input type="radio" name="pq3" id="pq3" value="3"> 가정  
                     </label>
                     <label class="radio">
                       <input type="radio" name="pq3" id="pq3" value="4"> 이동 중 자유로운 공간
-                    </label>
-                    <label class="radio">
-                      <input type="radio" name="pq3" id="pq3" value="5"> 기타
                     </label>
                   </div>
                 </div>
@@ -1829,8 +2050,10 @@
                       <input type="radio" name="pq4" id="pq4" value="2"> 심리·정서적 요소
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq4" id="pq4" value="3"> 학습내용(컨텐츠)
+                      <input type="radio" name="pq4" id="pq4" value="3"> 학습내용<small>(컨텐츠)</small>
                     </label>
+                  </div>
+                  <div class="answer">
                     <label class="radio">
                       <input type="radio" name="pq4" id="pq4" value="4"> 교수학습방법 
                     </label>
@@ -1854,10 +2077,10 @@
                       <input type="radio" name="pq5" id="pq5" value="2"> 글자 및 화면 디자인의 적절성
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq5" id="pq5" value="3"> 서버의 안정성(예: 오류의 최소화 등)
+                      <input type="radio" name="pq5" id="pq5" value="3"> 서버의 안정성<small>(예: 오류의 최소화 등)</small>
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq5" id="pq5" value="4"> 속도의 신속성(예: 접속 속도, 자료 다운로드 등)
+                      <input type="radio" name="pq5" id="pq5" value="4"> 속도의 신속성<small>(예: 접속 속도, 자료 다운로드 등)</small>
                     </label>
                     <label class="radio">
                       <input type="radio" name="pq5" id="pq5" value="5"> 모바일 접근 및 이용 가능성
@@ -1873,10 +2096,10 @@
                       <input type="radio" name="pq6" id="pq6" value="1"> 여유로운 학습 시간
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq6" id="pq6" value="2"> 도움 및 지원 가능 여부(예: 학습지원, 질의응답 등)
+                      <input type="radio" name="pq6" id="pq6" value="2"> 도움 및 지원 가능 여부<small>(예: 학습지원, 질의응답 등)</small>
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq6" id="pq6" value="3"> 학업 스트레스의 최소화(예: 진도, 과제, 이수 등)
+                      <input type="radio" name="pq6" id="pq6" value="3"> 학업 스트레스의 최소화<small>(예: 진도, 과제, 이수 등)</small>
                     </label>
                     <label class="radio">
                       <input type="radio" name="pq6" id="pq6" value="4"> 평가 스트레스의 최소화
@@ -1885,17 +2108,17 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    7. 학습내용(컨텐츠) 영역에서 가장 중요하게 생각하는 항목은 무엇입니까?
+                    7. 학습내용<small>(컨텐츠)</small> 영역에서 가장 중요하게 생각하는 항목은 무엇입니까?
                   </div>
                   <div class="answer">
                     <label class="radio">
                       <input type="radio" name="pq7" id="pq7" value="1"> 학습목표에 적합한 학습내용 선정
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq7" id="pq7" value="2"> 학습내용의 범위와 수준의 적절성(예: 난이도 등)
+                      <input type="radio" name="pq7" id="pq7" value="2"> 학습내용의 범위와 수준의 적절성<small>(예: 난이도 등)</small>
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq7" id="pq7" value="3"> 자기주도적 학습의 실행 가능성(예: 토론주제 선택, 과제 선택, 학습속도의 개별화 등)
+                      <input type="radio" name="pq7" id="pq7" value="3"> 자기주도적 학습의 실행 가능성<small>(예: 토론주제 선택, 과제 선택, 학습속도의 개별화 등)</small>
                     </label>
                     <label class="radio">
                       <input type="radio" name="pq7" id="pq7" value="4"> 학습 자료의 다양성 및 풍부
@@ -1914,7 +2137,7 @@
                   </div>
                   <div class="answer">
                     <label class="radio">
-                      <input type="radio" name="pq8" id="pq8" value="1"> 강의(이론 중심) 위주
+                      <input type="radio" name="pq8" id="pq8" value="1"> 강의<small>(이론 중심)</small> 위주
                     </label>
                     <label class="radio">
                       <input type="radio" name="pq8" id="pq8" value="2"> 토의, 토론 위주
@@ -1936,7 +2159,7 @@
                       <input type="radio" name="pq9" id="pq9" value="1"> 쉬운 학습방법
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq9" id="pq9" value="2"> 학습내용의 유용성(예: 학교현장 적용 등)
+                      <input type="radio" name="pq9" id="pq9" value="2"> 학습내용의 유용성<small>(예: 학교현장 적용 등)</small>
                     </label>
                     <label class="radio">
                       <input type="radio" name="pq9" id="pq9" value="3"> 시간 및 비용의 절감
@@ -1964,23 +2187,23 @@
                       <input type="radio" name="pq10" id="pq10" value="4"> 학습 진도에 대한 피드백
                     </label>
                     <label class="radio">
-                      <input type="radio" name="pq10" id="pq10" value="5"> 다양한 의사소통 통로 확보(예: 게시판, 메일, 쪽지 등)
+                      <input type="radio" name="pq10" id="pq10" value="5"> 다양한 의사소통 통로 확보<small>(예: 게시판, 메일, 쪽지 등)</small>
                     </label>
                   </div>
                 </div>
-                <label class="btn btn-link btn-recognize">다음으로 넘어가기(이전으로 돌아갈 수 없습니다.)</label>
+                <label class="btn btn-default btn-part3" disabled="true"> Next(모든 문항을 체크해야 넘어갈 수 있습니다!) </label>
               </div>
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
+            <div class="panel-heading" role="tab" id="headingFour">
               <h4 class="panel-title mid">
-                <a class="collapsed " data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  PART 3
+                <a class="collapsed " data-toggle="collapse" data-parent="#accordion" href="" aria-expanded="false" aria-controls="collapseFour">
+                  PART 4
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                 <h4 style="color: red;">다음은 배경정보에 관한 문항들입니다. 잘 읽고 숫자에 표시하여 주십시오. </h4>
                 <div class="survey-question">
@@ -1997,8 +2220,9 @@
                     <label class="radio">
                       <input type="radio" name="bq1" id="bq1" value="3"> 재택학급
                     </label>
-                    <label class="radio">
-                      <input type="radio" name="bq1" id="bq1" value="4"> 기타
+                    <label class="radio webkit-label">
+                      <input class="etc" type="radio" name="bq1" id="bq1" value="4"> 기타
+                      <input type="text" class="form-control question-text" name="bq1_etc" id="bq1_etc">
                     </label>
                   </div>
                 </div>
@@ -2035,8 +2259,6 @@
                     <label class="radio">
                       <input type="radio" name="bq3" id="bq3" value="3"> 10년 이상 ~ 15년 미만
                     </label>
-                  </div>
-                  <div class="answer">
                     <label class="radio">
                       <input type="radio" name="bq3" id="bq3" value="4"> 15년 이상 ~ 20년 미만
                     </label>
@@ -2050,7 +2272,7 @@
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    4. 현재 선생님께서 담당하시는 학년을 표시해주십시오. .
+                    4. 현재 선생님께서 담당하시는 학년을 표시해주십시오.
                   </div>
                   <div class="answer">
                     <label class="radio">
@@ -2060,13 +2282,13 @@
                       <input type="radio" name="bq4" id="bq4" value="2"> 고등학교
                     </label>
                     <label class="radio">
-                      <input type="radio" name="bq4" id="bq4" value="3"> 고등학교 이상(예: 전공과)
+                      <input type="radio" name="bq4" id="bq4" value="3"> 고등학교 이상<small>(예: 전공과 등)</small>
                     </label>
                   </div>
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    5. 현재 선생님께서 지도하고 계시는 학생들의 <strong>주 장애 영역</strong>을 표시해주십시오.
+                    5. 현재 선생님께서 지도하고 계시는 학생들의 <u>주 장애 영역</u>을 표시해주십시오.
                   </div>
                   <div class="answer">
                     <label class="radio">
@@ -2144,16 +2366,16 @@
                       <input type="radio" name="bq8" id="bq8" value="1"> 대학교 졸업
                     </label>
                     <label class="radio">
-                      <input type="radio" name="bq8" id="bq8" value="2"> 대학원 졸업(석사)
+                      <input type="radio" name="bq8" id="bq8" value="2"> 대학원 졸업<small>(석사)</small>
                     </label>
                     <label class="radio">
-                      <input type="radio" name="bq8" id="bq8" value="3"> 대학원 졸업(박사)
+                      <input type="radio" name="bq8" id="bq8" value="3"> 대학원 졸업<small>(박사)</small>
                     </label>
                   </div>
                 </div>
                 <div class="survey-question">
                   <div class="question">
-                    9. 선생님께서 소지하고 계시는 교직자격증을 표시해주십시오.
+                    9. 선생님께서 소지하고 계시는 교자격증을 표시해주십시오.
                   </div>
                   <div class="answer">
                     <label class="radio">
@@ -2163,7 +2385,7 @@
                       <input type="radio" name="bq9" id="bq9" value="2"> 직업교사
                     </label>
                     <label class="radio">
-                      <input type="radio" name="bq9" id="bq9" value="3"> 복수자격(직업+특수)교사
+                      <input type="radio" name="bq9" id="bq9" value="3"> 복수자격<small>(직업+특수)</small>교사
                     </label>
                   </div>
                 </div>
@@ -2186,10 +2408,10 @@
                   </div>
                   <div class="answer">
                     <label class="radio">
-                      <input type="radio" name="bq11" id="bq11" value="1"> 직무연수, 워크숍, 강좌 참
+                      <input type="radio" name="bq11" id="bq11" value="1"> 직무연수, 워크숍, 강좌 참석
                     </label>
                     <label class="radio">
-                      <input type="radio" name="bq11" id="bq11" value="2"> 중소도시
+                      <input type="radio" name="bq11" id="bq11" value="2"> 온라인 연수 수
                     </label>
                     <label class="radio">
                       <input type="radio" name="bq11" id="bq11" value="3"> 학술대회, 세미나 참석
@@ -2200,8 +2422,6 @@
                     <label class="radio">
                       <input type="radio" name="bq11" id="bq11" value="5"> 타 학교 방문, 참관
                     </label>
-                  </div>
-                  <div class="answer">
                     <label class="radio">
                       <input type="radio" name="bq11" id="bq11" value="6"> 전문 학술 문헌 읽기
                     </label>
@@ -2214,8 +2434,9 @@
                     <label class="radio">
                       <input type="radio" name="bq11" id="bq11" value="9"> 교사의 전문성 신장을 위해 조직된 교사 모임 참여
                     </label>
-                    <label class="radio">
-                      <input type="radio" name="bq11" id="bq11" value="10"> 기타
+                    <label class="radio webkit-label">
+                      <input class="etc" type="radio" name="bq11" id="bq11" value="10"> 기타
+                      <input type="text" class="form-control question-text" name="bq11_etc" id="bq11_etc">
                     </label>
                   </div>
                 </div>
@@ -2228,10 +2449,10 @@
                       <input type="radio" name="bq12" id="bq12" value="1" checked="checked"> 없음
                     </label>
                     <label class="radio">
-                      <input type="radio" name="bq12" id="bq12" value="2"> 12회
+                      <input type="radio" name="bq12" id="bq12" value="2"> 1 ~ 2회
                     </label>
                     <label class="radio">
-                      <input type="radio" name="bq12" id="bq12" value="3"> 3-4회
+                      <input type="radio" name="bq12" id="bq12" value="3"> 3 ~ 4회
                     </label>
                     <label class="radio">
                       <input type="radio" name="bq12" id="bq12" value="4"> 4회 이상
@@ -2240,7 +2461,7 @@
                 </div>
                 <div class="survey-checkbox-question" style="padding-left: 10px">
                   <div class="question">
-                    -> ('1회 이상'이라고 답한 경우) 직무 연수 기관은 어느 곳이었습니까?(중복응답)
+                    ▶ <small>('1회 이상'이라고 답한 경우)</small> 직무 연수 기관은 어느 곳이었습니까?<small>(중복응답)</small>
                   </div>
                   <div class="answer">
                     <label class="checkbox">
@@ -2252,22 +2473,21 @@
                     <label class="checkbox">
                       <input type="checkbox" name="bq12_1[]" id="bq12_1[]" value="3"> 원격교육연수원
                     </label>
-                  </div>
-                  <div class="answer">
                     <label class="checkbox">
                       <input type="checkbox" name="bq12_1[]" id="bq12_1[]" value="4"> 대학교
                     </label>
                     <label class="checkbox">
                       <input type="checkbox" name="bq12_1[]" id="bq12_1[]" value="5"> 특수교육 관련 학회 또는 연구회
                     </label>
-                    <label class="checkbox">
-                      <input type="checkbox" name="bq12_1[]" id="bq12_1[]" value="6"> 기타
+                    <label class="checkbox webkit-label">
+                      <input class="etc" type="checkbox" name="bq12_1[]" id="bq12_1[]" value="6"> 기타
+                      <input type="text" class="form-control question-text" name="bq12_1_etc" id="bq12_1_etc">
                     </label>
                   </div>
                 </div>
                 <div class="survey-checkbox-question" style="padding-left: 10px">
                   <div class="question">
-                    -> ('1회 이상'이라고 답한 경우) 직무연수의 내용은 무엇이었습니까? (중복응답)
+                    ▶ <small>('1회 이상'이라고 답한 경우)</small> 직무연수의 내용은 무엇이었습니까? <small>(중복응답)</small>
                   </div>
                   <div class="answer">
                     <label class="checkbox">
@@ -2285,8 +2505,6 @@
                     <label class="checkbox">
                       <input type="checkbox" name="bq12_2[]" id="bq12_2[]" value="5"> 산업체 개발 및 직업훈련지도방법
                     </label>
-                  </div>
-                  <div class="answer">
                     <label class="checkbox">
                       <input type="checkbox" name="bq12_2[]" id="bq12_2[]" value="6"> 전환계획 수립
                     </label>
@@ -2301,7 +2519,7 @@
                     </label>
                   </div>
                 </div>
-                <button class="btn btn-default btn-xs" type="submit">Submit</button>
+                <button class="btn btn-default btn-submit" type="submit" disabled="true"> Submit(모든 문항을 체크해야 넘어갈 수 있습니다!) </button>
               </div>
             </div>
           </div>
@@ -2322,18 +2540,8 @@
     font-weight: 400;
   }
   input[type="radio"] {
-    height: 30px;
-    width: 20px;
-    padding-right: 10px;
   }
   input[type="checkbox"] {
-    height: 30px;
-    width: 20px;
-    padding-right: 10px;
-  }
-  body {
-    font-size: 30px;
-    font-family: gothic;
   }
   .survey-question {
     font-weight: bold;
@@ -2346,10 +2554,11 @@
     padding-bottom: 30px;
     display: none;
   }
+  .question {
+    font-size: large;
+  }
   .answer {
-    display: inline-block;
-    font-weight: 400;
-    font-size: 25px;
+    display: inline-grid;
     padding-left: 20px;
     padding-top: 10px;
   }
@@ -2366,20 +2575,31 @@
   }
   .table-radio label {
     padding-bottom: 11px;
-    padding-left: 0px;
+    padding-left: 0;
   }
   .survey-table {
-    font-size: medium;
+    font-size: 14px;
     text-align: center;
   }
   th {
     text-align: center;
   }
   .table-th-width {
-    width : 8%;
+    width : 10%;
+    padding-left: 10px;
   }
   .radio-inline input[type="radio"] {
-    width: 17px;
-    height: 17px;
+    width: 10px;
+    height: 10px;
+  }
+  small {
+    font-size: x-small;
+  }
+  .webkit-label {
+    display: -webkit-box;
+  }
+  .question-text {
+    height: 20px;
+    margin-left: 20px;
   }
 </style>

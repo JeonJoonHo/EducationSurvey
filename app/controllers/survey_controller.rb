@@ -36,11 +36,11 @@ class SurveyController < ApplicationController
                             e_q19_1: params[:eq191], e_q19_2: params[:eq192], e_q20_1: params[:eq201], e_q20_2: params[:eq202],
                             e_q21_1: params[:eq211], e_q21_2: params[:eq212], e_q22_1: params[:eq221], e_q22_2: params[:eq222],
                             e_q23_1: params[:eq231], e_q23_2: params[:eq232], e_q24_1: params[:eq241], e_q24_2: params[:eq242],
-                            p_q1: params[:pq1], p_q2: params[:pq2], p_q3: params[:pq3], p_q4: params[:pq4],
+                            p_q1: params[:pq1], p_q2: params[:pq2], p_q2_etc: params[:pq2_etc], p_q3: params[:pq3], p_q3_etc: params[:pq3_etc], p_q4: params[:pq4],
                             p_q5: params[:pq5], p_q6: params[:pq6], p_q7: params[:pq7], p_q8: params[:pq8],
-                            p_q9: params[:pq9], p_q10: params[:pq10], b_q1: params[:bq1], b_q2: params[:bq2], b_q3: params[:bq3], b_q4: params[:bq4], b_q5: params[:bq5],
-                            b_q6: params[:bq6], b_q7: params[:bq7], b_q8: params[:bq8], b_q9: params[:bq9], b_q10: params[:bq10], b_q11: params[:bq11],
-                            b_q12: params[:bq12], b_q12_1: bq12_1, b_q12_2: bq12_2);
+                            p_q9: params[:pq9], p_q10: params[:pq10], b_q1: params[:bq1], b_q1_etc: params[:bq1_etc], b_q2: params[:bq2], b_q3: params[:bq3], b_q4: params[:bq4], b_q5: params[:bq5],
+                            b_q6: params[:bq6], b_q7: params[:bq7], b_q8: params[:bq8], b_q9: params[:bq9], b_q10: params[:bq10], b_q11: params[:bq11], b_q11: params[:bq11_etc],
+                            b_q12: params[:bq12], b_q12_1: bq12_1, b_q12_1_etc: params[:bq12_1_etc], b_q12_2: bq12_2)
 
     redirect_to '/survey/finish'
   end

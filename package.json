@@ -1,5 +1,7 @@
 {
   "name": "educate",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "screenfull": "^3.3.2"
+  }
 }

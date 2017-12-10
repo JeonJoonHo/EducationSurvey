@@ -51,7 +51,9 @@ class CreateSurveys < ActiveRecord::Migration[5.1]
       t.integer :e_q24_2
       t.integer :p_q1
       t.integer :p_q2
+      t.string :p_q2_etc
       t.integer :p_q3
+      t.string :p_q3_etc
       t.integer :p_q4
       t.integer :p_q5
       t.integer :p_q6
@@ -60,6 +62,7 @@ class CreateSurveys < ActiveRecord::Migration[5.1]
       t.integer :p_q9
       t.integer :p_q10
       t.integer :b_q1
+      t.string :b_q1_etc
       t.integer :b_q2
       t.integer :b_q3
       t.integer :b_q4
@@ -70,8 +73,10 @@ class CreateSurveys < ActiveRecord::Migration[5.1]
       t.integer :b_q9
       t.integer :b_q10
       t.integer :b_q11
+      t.string :b_q11_etc
       t.integer :b_q12
       t.string :b_q12_1
+      t.string :b_q12_1_etc
       t.string :b_q12_2
 
       t.timestamps
