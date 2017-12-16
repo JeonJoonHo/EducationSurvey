@@ -10,7 +10,7 @@ $(document).ready(function(){
         }
     );
 
-    $('input[type=radio]').on('click', function () {
+    $('input[type=radio], input[type=checkbox]').on('click', function () {
         $.ajax({
             contentType: "application/json; charset=utf-8",
             success: function () {
@@ -26,9 +26,19 @@ $(document).ready(function(){
                     $('.btn-part3').removeAttr("disabled");
                     $('.btn-part3').text('Next');
                 }
-                if (12 <= parseInt($('#collapseFour input[type=radio]:checked').length)) {
-                    $('.btn-submit').removeAttr("disabled");
-                    $('.btn-submit').text('Submit');
+                var $bq12 = parseInt($('input:radio[name="bq12"]:checked').val());
+                if($bq12 == 1) {
+                    if (12 <= parseInt($('#collapseFour input[type=radio]:checked').length)) {
+                        $('.btn-submit').removeAttr("disabled");
+                        $('.btn-submit').text('Submit');
+                    }
+                } else {
+                    if (12 <= parseInt($('#collapseFour input[type=radio]:checked').length)) {
+                        if(2 <= parseInt($('#collapseFour input[type=checkbox]:checked').length)) {
+                            $('.btn-submit').removeAttr("disabled");
+                            $('.btn-submit').text('Submit');
+                        }
+                    }
                 }
             }
         });
