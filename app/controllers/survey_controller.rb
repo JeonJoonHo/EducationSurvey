@@ -5,8 +5,14 @@ class SurveyController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.csv { send_data @surveys.to_csv }
-      format.xls { send_data @surveys.to_csv(col_sep: "\t") }
+      format.csv { send_data @surveys.to_csv,
+                             filename: 'survey_result.csv',
+                             type: 'text/csv',
+                             disposition: 'attachment' }
+      format.xls { send_data @surveys.to_csv,
+                             filename: 'survey_result.xls',
+                             type: 'text/csv',
+                             disposition: 'attachment' }
     end
   end
 
@@ -48,7 +54,7 @@ class SurveyController < ApplicationController
   def finish_create
     @phone_number = PhoneNumber.create(phone_number: params[:number])
 
-    redirect_to '/survey/finish'
+    redirect_to '/survey/exit'
   end
 
 end

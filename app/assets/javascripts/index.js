@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('input:radio[name="bq12"]').change(
         function(){
             if ($(this).is(':checked') && $(this).val() == '1') {
+                $('input[type=checkbox]').prop('checked',false);
                 $('.survey-checkbox-question').css("display", "none");
             }
             else {
